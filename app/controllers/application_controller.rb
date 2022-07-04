@@ -1,8 +1,8 @@
 class ApplicationController < ActionController::Base
 
-  def hello1
-    render html: "welcome to Rails"
+  def hello
+    render html: "welcome to Rails, we are best"
   end
-  
+
 
 end
